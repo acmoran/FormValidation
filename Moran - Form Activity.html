@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Activity</title>
+		<link rel="stylesheet" type="text/css" href="styled.css">
+		<script language="JavaScript" type="text/javascript" src="interactive.js">
+		</script>
+	</head>
+	<body>
+		<h2> REGISTRATION FORM </h2>
+		<hr>
+		<form name = "RegistrationForm" method="=">
+		<div class="alert1">
+			<span id="alert1"></span>
+		</div>
+		<br />
+		<div class="content">
+
+		First Name
+		<br />
+		<input type="text" name="firstname"/>
+		<br />
+		<br />
+
+		Last Name
+		<br />
+		<input type="text" name="lastname"/>
+		<br />
+		<br />
+
+		Nickname
+		<br />
+		<input type="text" name="lastname"/>
+		<br />
+		<br />
+
+		Email
+		<br />
+		<input type="email" name="email"/>
+		<br />
+		<br />
+
+		Password
+		<br />
+		<input type="password" name="password" id="password"/>
+		<br />
+		<div class="alert2">
+			<span id="alert2"></span>
+		</div>
+		<br />
+
+		Date of Birth
+		<br />
+		<input type="date" name="bday" id="birthday"/>
+		<div class="alert3">
+			<span id="alert3"></span>
+		</div>
+		<br />
+	
+		Gender
+		<br />
+		<br />
+		<input type="radio" name="male" value="male"/>Male
+		<input type="radio" name="female" value="female"/>Female
+		<input type="radio" name="other" value="other"/>Other
+		<br />
+		<br />
+
+		Mobile
+		<br />
+		<input type="tel" name="mobile"/>		
+		<br />
+		<br />
+		
+		Address
+		<br/>
+		<textarea name="address" cols="25" rows="10"></textarea>
+		<br />
+		<br />
+		<input type="button" name="submit" value="Submit" onclick="checker()"/>
+		<input type="reset" name="reset" value="Reset"/>
+		</div>
+	</body>
+</html>
